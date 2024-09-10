@@ -125,9 +125,9 @@ const Header = () => {
 
             <div className="flex items-center justify-between p-0 sm:p-1 ">
                 
-                <div className="block ">
-                    <FontAwesomeIcon icon={faSeedling} className="text-gray-100 text-3xl sm:p-0" />
-                </div>
+            <div className="hidden sm:block">
+                <FontAwesomeIcon icon={faSeedling} className="text-gray-100 text-3xl sm:p-0" />
+            </div>
 
                 <div className="hidden md:block text-white text-xl font-bold">
                     AgriConnect
@@ -139,7 +139,7 @@ const Header = () => {
             <nav className="flex sm:space-x-4 space-x-3 ">
                 <Link to="/" className="text-gray-100  font-medium hover:underline  md:text-xl sm:text-lg"><FontAwesomeIcon className=' mx-1' icon={faHome} ></FontAwesomeIcon>Home</Link>
                 <Link to="/weather" className="text-gray-100  font-medium hover:underline  md:text-xl sm:text-lg"><FontAwesomeIcon className=' mx-1' icon={faCloud} ></FontAwesomeIcon>Weather</Link>
-                <Link to="/marketplace" className="text-gray-100  font-medium hover:underline  md:text-xl sm:text-lg "><FontAwesomeIcon className='mx-1' icon={faStore} ></FontAwesomeIcon>Marketplace</Link>
+                <Link to="/marketplace" className="text-gray-100  font-medium hover:underline  md:text-xl sm:text-lg "><FontAwesomeIcon className='mx-1' icon={faStore} ></FontAwesomeIcon>Market</Link>
                 <Link to="/chatbot" className=" text-gray-100  font-medium  hover:underline   md:text-xl sm:text-lg "><FontAwesomeIcon className='mx-1' icon={faComments} ></FontAwesomeIcon>AgroHelp</Link>
                 <Link to="/blogsList" className=" text-gray-100  font-medium  hover:underline   md:text-xl sm:text-lg "><FontAwesomeIcon className='mx-1' icon={faMarker} ></FontAwesomeIcon>Blogs</Link>
             </nav>
